@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "543682700554",
+    "project_id": "flutteraplikacija",
+    "storage_bucket": "flutteraplikacija.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543682700554:android:863f52e17d3d9e524746f3",
+        "android_client_info": {
+          "package_name": "ba.etf.unsa.flutteraplikacija"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543682700554-2a651ru6dk3mbjcj9bkdjhrnqkug3gb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA64YaKqi0d-cwaLH4o-1aqN0ol7xLjneU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543682700554-2a651ru6dk3mbjcj9bkdjhrnqkug3gb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
