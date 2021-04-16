@@ -23,7 +23,7 @@ class PretragaGoogle extends StatelessWidget {
               var pretraga = myController.text;
               var pretrazi = googleSearch + pretraga.replaceAll(" ", "+");
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyWebview(pretrazi)));
+                  MaterialPageRoute(builder: (context) => MyWebView(pretrazi)));
 
               print(pretrazi);
             }),
