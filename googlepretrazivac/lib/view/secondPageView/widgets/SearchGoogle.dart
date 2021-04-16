@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:googlepretrazivac/utils/textVariables/textVariables.dart';
 
-import 'MyWebView.dart';
+import 'myWebView.dart';
 
 class PretragaGoogle extends StatelessWidget {
   const PretragaGoogle({

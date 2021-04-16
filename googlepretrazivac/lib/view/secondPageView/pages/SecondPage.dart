@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:googlepretrazivac/utils/shared/SizeConfig.dart';
 import 'package:googlepretrazivac/utils/style/style.dart';
-import 'package:googlepretrazivac/view/secondPageView/widgets/DoneByWidget.dart';
-import 'package:googlepretrazivac/view/secondPageView/widgets/GoogleText.dart';
-import 'package:googlepretrazivac/view/secondPageView/widgets/SearchGoogle.dart';
-import 'package:googlepretrazivac/view/secondPageView/widgets/TopIcon.dart';
-import 'package:googlepretrazivac/view/secondPageView/widgets/YoutubeScreen.dart';
+import 'package:googlepretrazivac/view/secondPageView/widgets/doneByWidget.dart';
+import 'package:googlepretrazivac/view/secondPageView/widgets/googleText.dart';
+import 'package:googlepretrazivac/view/secondPageView/widgets/searchGoogle.dart';
+import 'package:googlepretrazivac/view/secondPageView/widgets/topIcon.dart';
+import 'package:googlepretrazivac/view/secondPageView/widgets/youtubeScreen.dart';
 
 class SecondPage extends StatelessWidget {
   final myController = TextEditingController();
