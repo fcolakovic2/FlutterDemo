@@ -4,7 +4,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 class LaunchBrowserService implements LaunchBrowserInterface {
   @override
-  void launchBrowser() async {
+  Future<dynamic> launchBrowser() async {
     const url = 'https://www.klix.ba';
     if (await canLaunch(url)) {
       launch(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:googlepretrazivac/viewModel/LaunchBrowserViewModel.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class GmailNatpis extends StatelessWidget {
@@ -13,16 +14,8 @@ class GmailNatpis extends StatelessWidget {
         right: 30,
         child: InkWell(
             child: Text("Gmail"),
-            onTap: () async {
-              const url = 'https://www.klix.ba';
-              if (await canLaunch(url)) {
-                launch(
-                  url,
-                  forceSafariVC: false,
-                );
-              } else {
-                throw 'Could not launch $url';
-              }
+            onTap: () {
+              launchBrowser();
             }));
   }
 }
