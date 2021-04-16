@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
             width: SizeConfig.screenWidth * 1,
             color: Colors.blue,
             child: Center(
+              //trebalo bi da ide sa containerom u view jer nemam iskljucivo samo stil ovdje
               child: Image.asset('assets/images/google.png'), //   <-- image
             ),
           ),
