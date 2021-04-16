@@ -3,8 +3,8 @@ import 'package:googlepretrazivac/utils/shared/SizeConfig.dart';
 import 'package:googlepretrazivac/utils/style/style.dart';
 import 'package:googlepretrazivac/view/secondPageView/widgets/DoneByWidget.dart';
 import 'package:googlepretrazivac/view/secondPageView/widgets/GoogleText.dart';
-import 'package:googlepretrazivac/view/secondPageView/widgets/Ikonica.dart';
 import 'package:googlepretrazivac/view/secondPageView/widgets/PretragaGoogle.dart';
+import 'package:googlepretrazivac/view/secondPageView/widgets/TopIcon.dart';
 import 'package:googlepretrazivac/view/secondPageView/widgets/youtubeScreen.dart';
 
 class SecondPage extends StatelessWidget {
@@ -19,7 +19,7 @@ class SecondPage extends StatelessWidget {
           Center(
             child: Image.asset('assets/images/google.png'),
           ),
-          Ikonica(),
+          TopIcon(),
           GmailNatpis(),
           Align(
               alignment: Alignment.bottomCenter,

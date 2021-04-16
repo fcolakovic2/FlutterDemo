@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:googlepretrazivac/utils/style/style.dart';
 
-class Ikonica extends StatelessWidget {
-  const Ikonica({
+class TopIcon extends StatelessWidget {
+  const TopIcon({
     Key key,
   }) : super(key: key);
 
