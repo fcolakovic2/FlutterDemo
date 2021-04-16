@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:googlepretrazivac/utils/textVariables/textVariables.dart';
-
-import 'myWebView.dart';
+import 'package:googlepretrazivac/viewModel/googleSearchViewModel.dart';
 
 class PretragaGoogle extends StatelessWidget {
   const PretragaGoogle({
@@ -14,20 +13,22 @@ class PretragaGoogle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Positioned(
-      bottom: 30,
-      left: 250, //ovo nisam izdvajao jer je jedna linija stil
-      child: Center(
-        child: ElevatedButton(
-            child: Text(textFieldText),
-            onPressed: () async {
+        bottom: 30,
+        left: 250, //ovo nisam izdvajao jer je jedna linija stil
+        child: Center(
+          child: ElevatedButton(
+              child: Text(textFieldText),
+              onPressed: () {
+                launchGoogle(context, myController.text);
+              }
+
+              /*async {
               var pretraga = myController.text;
               var pretrazi = googleSearch + pretraga.replaceAll(" ", "+");
               Navigator.push(context,
                   MaterialPageRoute(builder: (context) => MyWebView(pretrazi)));
-
-              print(pretrazi);
-            }),
-      ),
-    );
+            }),*/
+              ),
+        ));
   }
 }

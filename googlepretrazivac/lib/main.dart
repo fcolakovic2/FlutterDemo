@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:googlepretrazivac/view/secondPageView/pages/secondPage.dart';
 import 'package:page_transition/page_transition.dart';
 
-import 'utils/shared/SizeConfig.dart';
+import 'utils/shared/sizeConfig.dart';
 
 void main() => runApp(MaterialApp(home: MyApp()));
 

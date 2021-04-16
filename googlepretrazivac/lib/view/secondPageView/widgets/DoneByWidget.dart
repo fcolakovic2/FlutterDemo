@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:googlepretrazivac/utils/shared/SizeConfig.dart';
+import 'package:googlepretrazivac/utils/shared/sizeConfig.dart';
 import 'package:googlepretrazivac/utils/style/style.dart';
 import 'package:googlepretrazivac/utils/textVariables/textVariables.dart';
 
