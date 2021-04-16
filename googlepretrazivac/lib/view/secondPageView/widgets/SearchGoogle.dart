@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:googlepretrazivac/utils/textVariables/textVariables.dart';
 
 import 'MyWebView.dart';
 
@@ -20,8 +21,7 @@ class PretragaGoogle extends StatelessWidget {
             child: Text("Pretrazi"),
             onPressed: () async {
               var pretraga = myController.text;
-              var konacnaPretraga = "https://www.google.com/search?q=";
-              var pretrazi = konacnaPretraga + pretraga.replaceAll(" ", "+");
+              var pretrazi = googleSearch + pretraga.replaceAll(" ", "+");
               Navigator.push(context,
                   MaterialPageRoute(builder: (context) => MyWebview(pretrazi)));
 
