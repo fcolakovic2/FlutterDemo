@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'MojWebView.dart';
+import 'MyWebView.dart';
 
 class PretragaGoogle extends StatelessWidget {
   const PretragaGoogle({
@@ -22,10 +22,8 @@ class PretragaGoogle extends StatelessWidget {
               var pretraga = myController.text;
               var konacnaPretraga = "https://www.google.com/search?q=";
               var pretrazi = konacnaPretraga + pretraga.replaceAll(" ", "+");
-              Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: (context) => MojWebview(pretrazi)));
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => MyWebview(pretrazi)));
 
               print(pretrazi);
             }),
