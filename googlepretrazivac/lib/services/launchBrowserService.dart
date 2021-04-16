@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:googlepretrazivac/interface/LaunchBrowserInterface/LaunchBrowserInterface.dart';
+import 'package:googlepretrazivac/interface/launchBrowserInterface.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class LaunchBrowserService implements LaunchBrowserInterface {

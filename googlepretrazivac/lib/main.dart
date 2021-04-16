@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:googlepretrazivac/view/secondPageView/pages/SecondPage.dart';
+import 'package:googlepretrazivac/view/secondPageView/pages/secondPage.dart';
 import 'package:page_transition/page_transition.dart';
 
 import 'utils/shared/SizeConfig.dart';
