@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:googlepretrazivac/utils/shared/SizeConfig.dart';
+import 'package:googlepretrazivac/utils/style/style.dart';
 import 'package:googlepretrazivac/utils/textVariables/textVariables.dart';
 
 class DoneByWidget extends StatelessWidget {
@@ -13,14 +15,7 @@ class DoneByWidget extends StatelessWidget {
       left: 30,
       child: Text(
         credits,
-        style: TextStyle(
-            fontSize: MediaQuery.of(context).size.width > 600 ? 22 : 16,
-            color: MediaQuery.of(context).size.width > 600
-                ? Colors.red
-                : Colors.blue,
-            backgroundColor: MediaQuery.of(context).size.width > 600
-                ? Colors.white
-                : Colors.amber),
+        style: Styles.creditsStyle,
       ),
     );
   }

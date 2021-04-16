@@ -11,4 +11,10 @@ class Styles {
     border: OutlineInputBorder(),
     labelText: 'Pretraga',
   );
+
+  static final TextStyle creditsStyle = TextStyle(
+      fontSize: SizeConfig.screenWidth > 600 ? 22 : 16,
+      color: SizeConfig.screenWidth > 600 ? Colors.red : Colors.blue,
+      backgroundColor:
+          SizeConfig.screenWidth > 600 ? Colors.white : Colors.amber);
 }
