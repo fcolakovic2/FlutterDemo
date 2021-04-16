@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:googlepretrazivac/utils/textVariables/textVariables.dart';
 import 'package:googlepretrazivac/viewModel/LaunchBrowserViewModel.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -13,7 +14,7 @@ class GmailNatpis extends StatelessWidget {
         top: 50,
         right: 30,
         child: InkWell(
-            child: Text("Gmail"),
+            child: Text(gmailText),
             onTap: () {
               launchBrowser();
             }));

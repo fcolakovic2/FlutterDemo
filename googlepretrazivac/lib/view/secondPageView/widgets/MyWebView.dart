@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
+import 'package:googlepretrazivac/utils/textVariables/textVariables.dart';
 
 class MyWebview extends StatefulWidget {
   String trazeno;
@@ -16,6 +17,8 @@ class _MyWebviewState extends State<MyWebview> {
   @override
   Widget build(BuildContext context) {
     return WebviewScaffold(
-        url: "https://www.google.com/search?q=" + widget.trazeno);
+        url: googleSearch +
+            widget
+                .trazeno); //fakticki ne treba vise googleSearch string jer imam svoj webview ali neka stoji radi demonstracije textVarijabli
   }
 }
