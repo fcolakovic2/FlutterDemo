@@ -18,7 +18,7 @@ class PretragaGoogle extends StatelessWidget {
       left: 250, //ovo nisam izdvajao jer je jedna linija stil
       child: Center(
         child: ElevatedButton(
-            child: Text("Pretrazi"),
+            child: Text(textFieldText),
             onPressed: () async {
               var pretraga = myController.text;
               var pretrazi = googleSearch + pretraga.replaceAll(" ", "+");
