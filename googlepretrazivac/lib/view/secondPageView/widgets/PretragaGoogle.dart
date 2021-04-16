@@ -14,7 +14,7 @@ class PretragaGoogle extends StatelessWidget {
   Widget build(BuildContext context) {
     return Positioned(
       bottom: 30,
-      left: 250,
+      left: 250, //ovo nisam izdvajao jer je jedna linija stil
       child: Center(
         child: ElevatedButton(
             child: Text("Pretrazi"),

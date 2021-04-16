@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:googlepretrazivac/utils/shared/SizeConfig.dart';
+import 'package:googlepretrazivac/utils/style/style.dart';
 import 'package:googlepretrazivac/view/secondPageView/widgets/DoneByWidget.dart';
-import 'package:googlepretrazivac/view/secondPageView/widgets/GoogleNatpis.dart';
+import 'package:googlepretrazivac/view/secondPageView/widgets/GoogleText.dart';
 import 'package:googlepretrazivac/view/secondPageView/widgets/Ikonica.dart';
 import 'package:googlepretrazivac/view/secondPageView/widgets/PretragaGoogle.dart';
 import 'package:googlepretrazivac/view/secondPageView/widgets/youtubeScreen.dart';
@@ -27,10 +28,7 @@ class SecondPage extends StatelessWidget {
                   child: TextField(
                     controller: myController,
                     obscureText: true,
-                    decoration: InputDecoration(
-                      border: OutlineInputBorder(),
-                      labelText: 'Pretraga',
-                    ),
+                    decoration: Styles.decorateInput,
                   ))),
           DoneByWidget(),
           PretragaGoogle(myController: myController),

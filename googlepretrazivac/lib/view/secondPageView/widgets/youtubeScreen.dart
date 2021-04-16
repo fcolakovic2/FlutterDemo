@@ -9,7 +9,7 @@ class YoutubeScreen extends StatelessWidget {
         controller: YoutubePlayerController(
           initialVideoId: 'qh-yxk-qAOc', //videoID.
           flags: YoutubePlayerFlags(
-            hideControls: false,
+            hideControls: false, //ovo se ne bi trebalo ubrajati u stil
             controlsVisibleAtStart: true, //flagovi za postavke videa
             autoPlay: true,
             mute: true,
